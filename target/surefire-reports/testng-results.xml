@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14356" started-at="2018-11-01T12:36:02Z" finished-at="2018-11-01T12:36:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14356" started-at="2018-11-01T12:36:02Z" finished-at="2018-11-01T12:36:17Z">
+      <class name="TestCases.SeleniumByTestNG">
+        <test-method status="PASS" signature="Beforetestenothing()[pri:0, instance:TestCases.SeleniumByTestNG@5cb137]" name="Beforetestenothing" is-config="true" duration-ms="15" started-at="2018-11-01T12:36:02Z" finished-at="2018-11-01T12:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforetestenothing -->
+        <test-method status="PASS" signature="SecureFileDownload(java.lang.String, java.lang.String)[pri:0, instance:TestCases.SeleniumByTestNG@5cb137]" name="SecureFileDownload" duration-ms="14265" started-at="2018-11-01T12:36:02Z" data-provider="BrowserProvider" finished-at="2018-11-01T12:36:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Browser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecureFileDownload -->
+        <test-method status="PASS" signature="teardownAftertest()[pri:0, instance:TestCases.SeleniumByTestNG@5cb137]" name="teardownAftertest" is-config="true" duration-ms="42" started-at="2018-11-01T12:36:17Z" finished-at="2018-11-01T12:36:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownAftertest -->
+      </class> <!-- TestCases.SeleniumByTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
